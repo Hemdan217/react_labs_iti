@@ -1,0 +1,23 @@
+.card-image {
+  position: relative;
+}
+
+.image-overlay {
+  position: absolute;
+  text-align: center;
+  color: white;
+  padding-top: 40%;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background: rgba(0, 0, 0, 0.53);
+}
+
+.card:hover .image-overlay {
+  opacity: 1;
+}
